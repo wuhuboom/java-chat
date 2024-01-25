@@ -49,6 +49,12 @@
             <artifactId>oshi-core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.chat</groupId>
+            <artifactId>chat-system</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
 
     </dependencies>
 

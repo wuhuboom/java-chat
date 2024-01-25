@@ -40,6 +40,20 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
+        <!-- 核心模块-->
+        <dependency>
+            <groupId>com.chat</groupId>
+            <artifactId>chat-framework</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.chat</groupId>
+            <artifactId>chat-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -16,9 +16,11 @@
     </description>
 
     <dependencies>
-
-
-
+        <dependency>
+            <groupId>com.chat</groupId>
+            <artifactId>chat-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 

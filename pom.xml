@@ -140,6 +140,7 @@
         <module>chat-system</module>
         <module>chat-common</module>
         <module>chat-framework</module>
+        <module>chat-server</module>
     </modules>
     <packaging>pom</packaging>
 
