@@ -1,8 +1,6 @@
 package com.chat.common.constant;
 
-/**
- * 代码生成通用常量
- */
+
 public class GenConstants {
 
     /** 单表（增删改查） */
