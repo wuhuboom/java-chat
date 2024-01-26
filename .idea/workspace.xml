@@ -4,7 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea12469-b2d6-46be-bdb9-0481221a151e" name="Changes" comment="" />
+    <list default="true" id="6ea12469-b2d6-46be-bdb9-0481221a151e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/enums/BusinessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/enums/BusinessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/enums/DataSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/enums/HttpMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/enums/OperatorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/filter/PropertyPreExcludeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/filter/RepeatableFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/filter/RepeatedlyRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/filter/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/filter/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/html/EscapeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/html/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/http/HttpHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/http/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/ip/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/aspectj/DataScopeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/aspectj/DataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/datasource/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/datasource/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/manager/AsyncManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/manager/ShutdownManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/security/PermissionContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysLogininfor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysOperLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysRoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysUserOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysUserPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/vo/MetaVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/domain/vo/RouterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysDictDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysDictTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysLogininforMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysOperLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysRoleDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysUserPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-admin/src/main/java/ChatApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-admin/src/main/java/ChatServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/Anonymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/Anonymous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/DataScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/DataScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/RateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/RateLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/RepeatSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/annotation/RepeatSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/constant/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/constant/GenConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/constant/GenConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-system/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +115,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "G:/project/java-chat/chat-common/src/main/java/com/chat/common/utils",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,16 +129,38 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\project\java-chat\chat-common\src\main\java\com\chat\common\utils" />
+      <recent name="G:\project\java-chat\chat-common\src\main\java\com\chat\common\core\domain\entity" />
+      <recent name="G:\project\java-chat\chat-system\src\main\java" />
+      <recent name="G:\project\java-chat\chat-framework\src\main\java\com\chat\framework" />
+      <recent name="G:\project\java-chat\chat-common\src\main\java\com\chat\common\annotation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\project\chat-java\customer\chat-admin\src\main" />
       <recent name="G:\project\chat-java\customer\chat-admin\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chat.common.utils" />
+      <recent name="com.chat.common.enums" />
+      <recent name="com.chat.framework.security" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ChatApplication">
+  <component name="RunManager" selected="Spring Boot.ChatServerApplication">
     <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="chat-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="chat-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chat.ChatServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +196,7 @@
       <workItem from="1706102166193" duration="2120000" />
       <workItem from="1706104875084" duration="84000" />
       <workItem from="1706104989737" duration="6114000" />
+      <workItem from="1706258447011" duration="8062000" />
     </task>
     <servers />
   </component>
