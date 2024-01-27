@@ -5,8 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ea12469-b2d6-46be-bdb9-0481221a151e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/bean/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/bean/BeanValidators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/config/properties/DruidProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/src/main/java/com/chat/framework/config/properties/PermitAllUrlProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/target/classes/com/chat/framework/config/properties/DruidProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-framework/target/classes/com/chat/framework/config/properties/PermitAllUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/service/ISysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/service/ISysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/java/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysDictDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysDictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysLogininforMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysOperLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysUserPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/src/main/resources/mapper.system/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysDictDataMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysDictTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysLogininforMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysOperLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysUserPostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-system/target/classes/mapper.system/SysUserRoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/http/HttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/com/chat/common/utils/http/HttpHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/utils/http/HttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/target/classes/com/chat/common/utils/http/HttpHelper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +106,18 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\project\java-chat\chat-common\src\main\java\com\chat\common\utils" />
+      <recent name="G:\project\java-chat\chat-system\src\main\resources\mapper.system" />
+      <recent name="G:\project\java-chat\chat-framework\src\main\java\com\chat\framework\config" />
       <recent name="G:\project\java-chat\chat-common\src\main\java\com\chat\common\core\domain\entity" />
       <recent name="G:\project\java-chat\chat-system\src\main\java" />
-      <recent name="G:\project\java-chat\chat-framework\src\main\java\com\chat\framework" />
-      <recent name="G:\project\java-chat\chat-common\src\main\java\com\chat\common\annotation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\project\chat-java\customer\chat-admin\src\main" />
       <recent name="G:\project\chat-java\customer\chat-admin\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="system.service" />
+      <recent name="system.service.impl" />
       <recent name="com.chat.common.utils" />
       <recent name="com.chat.common.enums" />
       <recent name="com.chat.framework.security" />
@@ -132,7 +169,7 @@
       <workItem from="1706102166193" duration="2120000" />
       <workItem from="1706104875084" duration="84000" />
       <workItem from="1706104989737" duration="6114000" />
-      <workItem from="1706258447011" duration="8670000" />
+      <workItem from="1706258447011" duration="15176000" />
     </task>
     <servers />
   </component>
